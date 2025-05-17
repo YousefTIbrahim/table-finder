@@ -27,10 +27,10 @@ function App() {
         <SearchBar query={query} onSearch={handleSearch} />
         <ResultCard guest={matchedGuest} />
       <img
-          src="/weddingMap.jpg"
-          alt="Table Map Im not working"
-          className="table-map-img mt-4"
-        />
+        src={`${process.env.PUBLIC_URL}/WeddingMap.jpg`}
+        alt="Table Map Loading"
+        className="table-map-img mt-4"
+      />
       </div>
     </div>
   );
