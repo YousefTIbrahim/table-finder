@@ -8,20 +8,29 @@
 }
 
 .App-container {
+  background-color: rgba(19, 18, 18, 0.85);
   background-size: cover;
   background-position: center;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 2rem;
+  background-image: url('./WeddingLogo.jpg'); /* or /wedding-logo.jpeg if you renamed */
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 75%;
+  opacity: 1;
 }
+
 .overlay {
   background-color: rgba(255, 255, 255, 0.85);
   padding: 2rem;
-  border-radius: 1rem;
+  border-radius: 0rem;
   width: 90%;
   max-width: 500px;
   box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  opacity: 1;
 }
 
 .table-map-img {
@@ -51,6 +60,53 @@
 .App-link {
   color: #61dafb;
 }
+.match-button {
+  display: inline-block;
+  margin: 6px 6px;
+  padding: 14px 18px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  border: none;
+  background-color: #f1f1f1;
+  color: #111;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.match-button:hover {
+  background-color: #e0e0e0;
+}
+
+.match-button:active {
+  background-color: #d0d0d0;
+}
+
+.map-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 1.5rem;
+}
+
+.map-image {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.map-pin {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 12.5px solid transparent;
+  border-right: 12.5px solid transparent;
+  border-top: 25px solid red;
+  transform: translate(-50%, -100%);
+  z-index: 10;
+}
+
+
 
 @keyframes App-logo-spin {
   from {
