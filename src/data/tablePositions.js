@@ -1,4 +1,5 @@
 export const tablePositions = {
+  0:  { top: "22%", left: "70%" },
   1:  { top: "40%", left: "64%" },
   2:  { top: "40%", left: "33.75%" },
   3:  { top: "16%", left: "77.85%" },
