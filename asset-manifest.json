@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/table-finder/static/css/main.d1cd7345.css",
-    "main.js": "/table-finder/static/js/main.12bd697b.js",
+    "main.css": "/table-finder/static/css/main.ff273a47.css",
+    "main.js": "/table-finder/static/js/main.e9f5b77b.js",
     "static/js/453.8d09d94f.chunk.js": "/table-finder/static/js/453.8d09d94f.chunk.js",
     "static/media/WeddingLogo.jpg": "/table-finder/static/media/WeddingLogo.e0e135cd7a5b300b4f4b.jpg",
     "index.html": "/table-finder/index.html",
-    "main.d1cd7345.css.map": "/table-finder/static/css/main.d1cd7345.css.map",
-    "main.12bd697b.js.map": "/table-finder/static/js/main.12bd697b.js.map",
+    "main.ff273a47.css.map": "/table-finder/static/css/main.ff273a47.css.map",
+    "main.e9f5b77b.js.map": "/table-finder/static/js/main.e9f5b77b.js.map",
     "453.8d09d94f.chunk.js.map": "/table-finder/static/js/453.8d09d94f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1cd7345.css",
-    "static/js/main.12bd697b.js"
+    "static/css/main.ff273a47.css",
+    "static/js/main.e9f5b77b.js"
   ]
 }
