@@ -34,7 +34,7 @@ function App() {
 // };
 const fuse = new Fuse(guests, {
   keys: ['name'],
-  threshold: 0.2,            // allow slightly looser matches
+  threshold: 0.35,            // allow slightly looser matches
   ignoreLocation: true,      // don't penalize for being out of order
   includeScore: true,        // optional, helps debugging/weighting
   useExtendedSearch: true,   // enables smart multi-word behavior

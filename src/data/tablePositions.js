@@ -36,7 +36,7 @@ export const tablePositions = {
   30: { top: "81%", left: "6.5%" },
 //   31: { top: "81%", left: "90.5%" },
   31: { top: "81%", left: "82.3%" },
-  32: { top: "84%", left: "24%" },
+  32: { top: "84%", left: "16%" },
 //   33: { top: "81%", left: "82.3%" },
   33: { top: "81%", left: "72%" },
   34: { top: "83%", left: "25.8%" },
